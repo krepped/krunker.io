@@ -1,0 +1,431 @@
+@font-face {
+  font-family: 'GameFont';
+  src: CSSFONT:font;
+}
+
+#menuClassIcn, #mapInfoHld , #CVersion,#faceitVideo,#mainLogoFace,#killCardKick,#clientExit,#killCardBy,#loadEditrBtn,#loadInfoLHolder,#loadTipsHolder,.endAHolder,#aHolder,#seasonLabel,#newsHolder,#bubbleContainer,#reloadMsg, #igXPBar,#rankedSoonTm,#hudClassIcon,#termsInfo,.headerBarRight,#menuClassName,#menuClassSubtext,#instructions,#loadInfoRHolder,#loadInfoLHolder,#tlInfHold{
+  display:none!important
+}
+
+#matchInfo {
+	display:none!important
+}
+
+#bottomLeftTeamType,
+.weapKey,
+#bottomLeftTeamName,
+#newsHolder,
+#popupContent,
+#claimPop,
+#topRightAdHolder,
+#popupBack,
+#streamContainer,
+#updateAd,
+#rankedBlog,
+#aContainer,
+#aMerger,
+#seasonLabel,
+#aHolder,
+#krDiscountAd,
+#rankedSoonTm,
+#twitchDropsAd,
+#dropsPop,
+#newUserGuide,
+.greyInlineInner,
+.weapSkin,
+.weapStreak, 
+.weapStreakHolder,
+#bottomLeftTeamType {
+  display: none !important;
+}
+
+.greyInner, 
+.greyInlineInner, 
+.greyInlineInnerMid,
+.weapItemInner,
+.weapItem,
+#leaderContainer,
+#timerInner.topLeftOld,
+#bottomLeftPlayer,
+#bottomLeftPlayerLeft,
+#bottomLeftPlayerRight,
+#bottomLeftTeamType,
+#bottomLeftTeamName,
+#bottomLeftHealthBar {
+  background-color: transparent !important;
+}
+
+#curGameInfo {
+  display: none !important;
+}
+
+.greyInner,.greyInlineInner,.greyInlineInnerMid {
+  background-color: #0000!important;
+}
+
+#matchInfo {
+  display: flex !important;
+  visibility: hidden !important;
+}
+
+#bottomLeftPlayer,
+#bottomLeftPlayerMid,
+#bottomLeftPlayerLeft,
+#bottomLeftPlayerRight,
+#bottomLeftHealthBar {
+  background-color: #0000!important;
+}
+
+#bottomLeftTeamHolder,
+#bottomLeftChallIcon {
+  display: none!important
+}
+
+#bottomLeftClassImg {
+  image-rendering: optimizeQuality;
+  border-radius: 8px;
+  height: 103px;
+  width: 103px;
+  background-color: rgba(0, 0, 0, 0.3)
+}
+
+#bottomLeftHealth {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 6px;
+  padding: 4px;
+  font-size: 25px;
+  margin: 0px !important;
+  padding-right: 6px;
+  padding-left: 4px;
+  transform: translateX(-2px)
+}
+
+#bottomLeftHealthBar {
+  display: flex;
+}
+
+.nHealthBarSeg {
+  display: inline-block;
+  width: 100%;
+  height: 30px;
+  background-color: rgba(0, 0, 0, .4);
+}
+
+.nHealthBarSeg {
+  width: 40px !important;
+  display: inline-block !important;
+  border-radius: 5px !important;
+  margin-right: 6px !important;
+  height: 48px !important;
+}
+
+.nHpBSeg {
+  height: 48px !important;
+  border-radius: 5px !important;
+  -webkit-box-shadow: inset 0 -10px 0 0 rgba(0, 0, 0, .28) !important;
+  -moz-box-shadow: inset 0 -10px 0 0 rgba(0, 0, 0, .28) !important;
+  box-shadow: inset 0 -10px 0 0 rgba(0, 0, 0, .28) !important
+}
+
+#bottomLeftHealthBar {
+  position: fixed;
+  bottom: 10px;
+  left: 125px
+}
+
+#bottomLeftHealth {
+  position: fixed;
+  bottom: 76px;
+  left: 133px
+}
+
+#chatList{
+  background-color: rgba(0,0,0,0.15);
+  color: #000000!important;
+  border: transparent;
+  border-radius: 0px;
+  width: 334px;
+  transform: translateY(3px);
+  
+}
+#chatInputHolder{
+  position:relative;
+  border: 0px solid rgba(0,0,0,.0);
+  background-color: rgba(0, 0, 0, 0);
+  right: 18% !important;
+}   
+
+.greyInlineInnerMid {
+  margin: 3px;
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  padding: 5px;
+}
+
+#chatInput{
+  color: white;
+  border: transparent;
+  background-color: transparent;
+  font-size: 14px !important;
+  transform: translateX(-5px);
+  width: 200%;
+}  
+
+.greyInlineInnerMid {
+  width: 120%;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000000;
+}
+
+#voiceIcon, #recTimer {
+  padding: 0!important;
+  margin: 0!important;
+  display: none!important;
+}
+
+#uiBase.onMenu #chatHolder {
+  left: 150px;
+  bottom: 20px
+}
+
+#uiBase.onCompMenu #chatHolder {
+  left: 20px;
+  bottom: 150px
+}
+
+#uiBase.onGame #chatHolder {
+  left: 20px;
+  bottom: 139px
+}
+
+#uiBase.onSpect #chatHolder {
+  left: 20px;
+  bottom: 20px
+}
+
+#uiBase.onEndScrn #chatHolder {
+  left: 20px;
+  bottom: 20px
+}
+
+#uiBase.onGameM #chatHolder {
+  display: none
+}
+
+#timerHolder {
+  text-align: left;
+  top: 85%;
+  left: 50%;
+  padding: 0;
+  padding-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: transparent;
+  will-change: unset;
+  transform: translate(-10px, -20px);
+}
+#timerVal {
+  font-size: 26px;
+}
+
+#timerHolder.topLeftOld {
+  border-radius: 1px;
+  background-color: transparent; 
+}
+
+#timerInner.topLeftOld {
+  background-color: transparent;  
+}
+
+#timerVal.topLeftOld {
+  font-size: 45px!important;
+  text-shadow: unset!important   
+}
+
+#timerIcon.topLeftOld {
+  display: none;
+}
+
+#pingDisplay, #fpsDisplay {
+  text-align: left;
+  transform: translateY(2px)
+}
+
+#pingDisplay {
+  color: #0000
+}
+
+#pingText {
+  color: rgba(255, 255, 255, 0.5)!important
+}
+
+#ingameFPS {
+  color: rgba(255, 255, 255, 0.5)!important
+}
+
+#menuFPS {
+  color: rgba(255, 255, 255, 0.5)!important
+}
+
+#leaderboardHolder {
+  border-radius: 1px;
+  background-color: transparent;
+}
+
+#leaderContainer {
+  text-align: left;
+  color: #fff;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 3px;
+  background-color: transparent;
+}
+
+.centerLeaderContainer {
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+.centerLeaderContainerInner {
+  background-color: transparent;
+}
+
+.newLeaderTeam {
+  display: none;
+  background-color: transparent;
+}
+
+.statIcon {
+  background-color: transparent;
+}
+
+#weapHolder {
+  bottom: 110px;
+  right: 0px
+}
+
+.weapItem {
+  margin-bottom: -22px;
+  background-color: #0000
+}
+
+.weapItemInner {
+  background-color: #0000;
+}
+
+.weapKey {
+  display: none
+}
+
+.weapSkin {
+  display: none
+}
+
+.weapStreakHolder {
+  display: none!important
+}
+
+.weapIcon {
+  width: 150px;
+  height: 75px
+}
+
+#ammoHolder {
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0)!important
+}
+
+#ammoVal, #ammoMax {
+  font-size: 45px;
+}
+
+#ammoIcon {
+  vertical-align: text-top!important;
+  height: 55px
+}
+
+#teamScores {
+  background-color: transparent;
+  transform: translateY(-30px)
+}
+
+#bottomLeftPlayerLeft {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: var(--div-grey);
+  margin: 3px;
+}
+
+#hudClassIcon,
+#gameNameHolder {
+  display: none;
+}
+
+#ammoIcon,
+#challIcon,
+#timerIcon,
+#mainLogo,
+#gameLogo,
+#ammoMax {
+  display: none !important;
+}
+
+#aHolder,
+#clientExit,
+#rankedSoonTm,
+#newsHolder,
+#youNewDiv,
+#onetrust-consent-sdk,
+.weapKey,
+.imageButton,
+#editorBtnM,
+.headerBarRight .verticalSeparator,
+#seasonLabel,
+.krSocial,
+#mailCount,
+#voiceDisplay,
+#bubbleContainer,
+.endAHolder,
+#igXPBar,
+.button.small.buttonO img,
+#tlInfHold,
+#loadEditrBtn,
+.settingsBtn[onclick="openOneTrust()"],
+.menuSocialB,
+.setSugBox2,
+#mainLogo,
+#termsInfo :not(div[onClick*="Window(35)"]),
+.menuItemTitle,
+#weapDisplay,
+#menuWindow::-webkit-scrollbar,
+#maxHP,
+#matchInfo,
+#loadTipsHolder,
+#loadInfoLHolder,
+#loadInfoRHolder,
+#curGameInfo,
+#reloadMsg {
+  display: none !important;
+}f
+.voiceOff:after {
+  display: none !important;
+}
+#recTimer {
+  display: none !important;
+}
+#chatSwitch:after {
+  display: none !important;
+}
